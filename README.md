@@ -1,6 +1,18 @@
 # retinal-vessel-segmentation
 A tool for binarizing retinal blood vessel images.
 
+<p align="center">
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0077.jpg" alt="Unaltered image" width=30% height=30%>
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0077.output.jpg" alt="Binarized image" width=30% height=30%>
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0077.ah.jpg" alt="Ground truth" width=30% height=30%>
+    </br>
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0235.jpg" alt="Unaltered image" width=30% height=30%>
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0235.output.jpg" alt="Binarized image" width=30% height=30%>
+    <img src="https://github.com/allytrope/retinal-vessel-segmentation/blob/main/img/im0235.ah.jpg" alt="Ground truth" width=30% height=30%>
+    </br>
+    (Left) <i>Unaltered retinal images;</i> (Center) <i>Binarized results;</i> (Right) <i>Ground truth.</i>
+</p>
+
 ## Usage
 Retinal images with ```.ppm``` extension should be placed in the ```input``` folder for processing. After running ```main.matlab```,
 the binarized images will be generated inside the ```output``` folder.
